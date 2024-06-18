@@ -1,8 +1,8 @@
 import openai
 import streamlit as st
-import dotenv
+# import dotenv
 
-ENV = dotenv.dotenv_values(".env")
+# ENV = dotenv.dotenv_values(".env")
 
 st.title("AI Tutor Chatbot")
 if "messages" not in st.session_state:
