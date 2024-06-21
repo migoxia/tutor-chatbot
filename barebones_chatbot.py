@@ -2,9 +2,9 @@ import openai
 import streamlit as st
 from decouple import config
 
-azure_key = config("AZURE_OPENAI_KEY")
-azure_endpoint = config("AZURE_OPENAI_ENDPOINT")
-azure_version = config("AZURE_OPENAI_API_VERSION")
+azure_key = "c42959fcc37648f0bdee8ed85f0ea6ea"
+azure_endpoint = "https://abchan-fite-gpt.openai.azure.com/"
+azure_version = "2023-07-01-preview"
 
 st.title("AI Tutor Chatbot")
 if "messages" not in st.session_state:
